@@ -1,0 +1,160 @@
+@media screen and (max-width: 1115px) {
+
+    .burger-icon {
+        display: none;
+    }
+
+    .header-wrapper {
+        margin: 1.95em 2em 0 1.8em;
+    }
+
+    .not-only-wrapper {
+        flex-wrap: wrap;
+        margin: 0 0 0 9.6em;
+    }
+
+    .text-not-only {
+        margin-top: 0;
+    }
+
+    .text-not-only h2 {
+        margin-top: 1.39em;
+        margin-right: 5em;
+    }
+
+    .img-not-only img {
+        width: 92%;
+        margin-top: 62px;
+        margin-left: 17px;
+        height: 90.7%;
+    }
+
+    .about-back {
+        max-width: 1280px;
+        margin: 67px 169px 0 49px;
+    }
+
+    .paragraph-l {
+        margin-top: 2.7em;
+        margin-right: 10em;
+    }
+
+    .text-about .paragraph-l {
+        margin-right: 0em;
+    }
+
+    .img-about {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 66px 0 100px 119px;
+    }
+
+    .btn-not-only {
+        margin-left: 126px;
+    }
+
+    .about-wrapper {
+        flex-wrap: wrap-reverse;
+        margin: 0;
+    }
+
+    .caption-our-friends {
+        margin-top: 80px;
+    }
+
+    .arrow {
+        margin: 0 12px;
+    }
+
+    .table-our-friends {
+        margin: 0px 0px;
+    }
+
+    .woody {
+        display: none;
+    }
+
+    .center-our-friends {
+        width: auto;
+    }
+
+    .table-our-friends-wrapper {
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .help-background {
+        margin-bottom: 80px;
+    }
+
+    .table-help {
+        display: none;
+    }
+
+    .table-help-1115 {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-top: 61px;
+        gap: 37px;
+    }
+
+    .info-table {
+        width: 30%;
+    }
+
+    .line-help-one,
+    .line-help-two {
+        margin: 0;
+    }
+
+    .line-help-three {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .in-addition-wrapper {
+        flex-wrap: wrap-reverse;
+        margin-left: 165px;
+    }
+
+    .text-donat span {
+        width: 61%;
+    }
+
+    .img-donat {
+        margin: 49px 0 95px -34px;
+    }
+
+    .footer-wrapper {
+        flex-wrap: wrap;
+        margin: 0px 26px 0px 64px;
+    }
+
+    .column {
+        width: 50%;
+        margin-top: 32px;
+    }
+
+    #center {
+        margin-left: 0;
+    }
+
+    #puppy-footer {
+        margin-top: 30px;
+        margin-left: 170px;
+
+    }
+
+    .contain-popup {
+        width: 82%;
+        height: 39.7%;
+        margin-left: 53px;
+    }
+
+    .pop-up .circle {
+        margin-top: -403px;
+    }
+
+}

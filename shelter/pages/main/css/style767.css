@@ -1,0 +1,366 @@
+@media screen and (max-width: 767px) {
+    html {
+        overflow-y: inherit;
+    }
+
+    body.lock {
+        overflow-y: hidden;
+    }
+
+    .header-wrapper {
+        margin: 1.95em 1.17em 0 1.25em;
+    }
+
+    .header-navigation {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 320px;
+        background-color: #292929;
+        transition: 0.8s;
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    nav.active {
+        transition: 0.8s;
+        right: 0;
+        box-shadow: 0px 0px 0px 30em rgba(41, 41, 41, 0.6);
+    }
+
+    .header-nav-list {
+        flex-direction: column;
+        line-height: 0;
+        margin-top: 78%;
+        align-items: center;
+        font-size: 30px;
+        gap: 40px;
+        padding: 0 30px;
+        font-family: 'Arial';
+        font-size: 32px;
+        line-height: 51px;
+    }
+
+    .burger-icon {
+        display: block;
+        z-index: 5;
+        position: relative;
+        width: 30px;
+        height: 22px;
+        cursor: pointer;
+        margin-top: 18px;
+        margin-right: 1px;
+        transition: 0.8s;
+    }
+
+    .burger-icon .one-span,
+    .burger-icon::before,
+    .burger-icon::after {
+        left: 0;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        transition: all 0.8s ease 0s;
+        background-color: #F1CDB3;
+    }
+
+    .burger-icon::before,
+    .burger-icon::after {
+        content: "";
+    }
+
+    .burger-icon::before {
+        top: 0;
+    }
+
+    .burger-icon::after {
+        bottom: 0;
+    }
+
+    .burger-icon .one-span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .burger-icon.active {
+        display: block;
+        transform: rotate(90deg);
+        transition: 0.5s;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .paragraph-l {
+        margin-top: 1.39em;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .jennifer {
+        display: none;
+    }
+
+    .not-only-wrapper {
+        margin: 0 15px 0 14px;
+    }
+
+    .text-not-only {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .text-not-only h2 {
+        margin-top: 2.39em;
+        margin-right: 26px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding-left: 29px;
+    }
+
+    .btn-not-only {
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .img-not-only {
+        margin-top: -23px;
+    }
+
+    .img-not-only img {
+        width: 89.1%;
+        margin-top: 68px;
+        margin-left: 36px;
+        height: 80.3%;
+    }
+
+    .about-back {
+        margin: 0;
+    }
+
+    .img-about {
+        margin: 0;
+        margin-top: 26px;
+    }
+
+    .img-about img {
+        /*width: 81%;*/
+        margin-bottom: 43px;
+    }
+
+    .text-about {
+        margin: 27px 25px 0 25px;
+    }
+
+    .text-about .paragraph-l {
+        text-align: justify;
+    }
+
+    .text-about h3 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 32px;
+        margin-right: 0;
+    }
+
+    .caption-our-friends {
+        margin-top: 42px;
+    }
+
+    .center-our-friends {
+        margin-top: 42px;
+    }
+
+    .our-friends h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .arrows-320 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 81px;
+        margin-top: 20px;
+    }
+
+    .btn-our-friends {
+        margin: 42px 0 42px 0;
+    }
+
+    .caption-help {
+        margin-top: 42px;
+    }
+
+    .help-wrapper h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .table-help-1115 {
+        display: none;
+    }
+
+    .table-help-320 {
+        width: 100%;
+        display: flex;
+        margin: 42px 0 0 0px;
+        justify-content: center;
+        gap: 46px;
+    }
+
+    .info-table {
+        width: auto;
+    }
+
+    .row-help-one,
+    .row-help-two {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .info-table p {
+        font-size: 15px;
+        letter-spacing: 0.06em;
+        margin-top: 20px;
+    }
+
+    .info-table img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help-background {
+        margin-bottom: 29px;
+    }
+
+    .in-addition-wrapper {
+        margin-left: 0px;
+    }
+
+    .text-donat {
+        margin: 42px 0 0px 20px;
+    }
+
+    .text-donat h3 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-left: -19px;
+        text-align: center;
+    }
+
+    .text-donat h5 {
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+
+    .text-donat span {
+        width: 93%;
+    }
+
+    .text-donat span a {
+        font-size: 15px;
+    }
+
+    .p-donat {
+        line-height: 19px;
+        margin-right: 13px;
+        letter-spacing: 0.02em;
+    }
+
+    .img-donat {
+        margin: 27px 0 38px 29px;
+    }
+
+    .img-donat img {
+        width: 90%;
+    }
+
+    .footer-wrapper {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-text {
+        display: none;
+    }
+
+    .footer-text-320 {
+        display: flex;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        margin: 0;
+        font-size: 26px;
+    }
+
+    #center {
+        margin-top: 40px;
+    }
+
+    .boston {
+        margin-top: 38px;
+        margin-left: 10px;
+    }
+
+    .london {
+        margin-top: 44px;
+        margin-left: -31px;
+    }
+
+    #puppy-footer {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .img-animal {
+        display: none;
+    }
+
+    .contain-popup {
+        width: 75%;
+        height: 39.7%;
+        margin-left: 26px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .pop-up .circle {
+        margin-left: -23px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #puppy-footer {
+        width: 260px;
+        height: 267px;
+    }
+
+    .img-about img {
+        width: 259px;
+        height: 352px;
+    }
+
+    .pop-up .circle {
+        z-index: 5;
+        margin-left: -23px;
+    }
+
+}
