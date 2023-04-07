@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url("../../../assets/fonts/Georgia.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArialRegular';
+    src: url("../../../assets/fonts/ArialRegular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArialItalic';
+    src: url("../../../assets/fonts/ArialItalic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Georgia';
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+    font-weight: normal;
+}
+
+.logo-text {
+    font-family: 'Arial';
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 4px;
+}
+
+h2 {
+    font-family: 'Georgia';
+    font-size: 44px;
+    line-height: 57px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Georgia';
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: 'Georgia';
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-y: overlay;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-back {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.96em 2.6em 1.82em 2.5em;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #292929;
+    gap: 35px;
+}
+
+#pets {
+    color: #292929;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.nav-hover:hover {
+    color: #262425;
+    transition: 0.8s;
+}
+
+.our-friends {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    align-items: center;
+}
+
+.our-friends-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+}
+
+.our-friends h3 {
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+}
+
+.caption-our-friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 82px;
+}
+
+.left {
+    transform: rotate(180deg);
+}
+
+.center-our-friends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 59px;
+}
+
+.table-our-friends {
+    width: 100%;
+    margin: 0 40px;
+}
+
+.table-our-friends-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.shell p {
+    font-family: 'Georgia';
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+}
+
+.shell-btn {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-top: 10px;
+    background: #FAFAFA;
+    transition: 0.8s;
+}
+
+.shell:hover .shell-btn {
+    background: #FDDCC4;
+    border: none;
+    transition: 0.5s;
+}
+
+.shell:hover {
+    background: #FFFFFF;
+    transition: 0.5s;
+}
+
+.row2 {
+    margin-top: 30px;
+}
+
+.circle-arrow {
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    line-height: 10em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Georgia';
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    transition: 0.8s;
+}
+
+.one-arrow-right:hover {
+    background: #F1CDB3;
+    cursor: pointer;
+}
+
+.two-arrows-right:hover {
+    background: #F1CDB3;
+    cursor: pointer;
+}
+
+.one-arrow-left,
+.two-arrows-left {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.page {
+    background: #F1CDB3;
+}
+
+.btn-our-friends:hover {
+    background: #FDDCC4;
+    transition: 0.8s;
+}
+
+.footer {
+    background: url(../../../assets/images/noise_transparent.png),
+        radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.footer-back {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0px 40px;
+}
+
+.column {
+    width: 33.33333333%;
+    margin-top: 56px;
+}
+
+.footer-text {
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+
+.info-footer {
+    margin-top: 40px;
+}
+
+.boston {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+}
+
+.london img {
+    margin-top: -5px;
+}
+
+.info-footer a {
+    display: flex;
+    gap: 20px;
+}
+
+.info-footer h4 {
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin: 0;
+}
+
+.info-footer h4:hover {
+    color: #F6F6F6;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.info-footer img:hover {
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+#center {
+    margin-left: 59px;
+}
+
+#puppy-footer {
+    display: flex;
+    margin-top: -16px;
+    margin-left: 80px;
+}
+
+.footer-text-320 {
+    display: none;
+}
+
+.pop-up {
+
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.hidden {
+    visibility: hidden;
+}
+
