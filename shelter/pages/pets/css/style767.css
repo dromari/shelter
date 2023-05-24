@@ -180,11 +180,65 @@
         margin-left: 0;
     }
 
+    .img-animal {
+        display: none;
+    }
+
+    .contain-popup {
+        width: 75%;
+        height: 39.7%;
+        margin-left: 26px;
+    }
+
+    .text-animal {
+        width: 100%;
+    }
+
 }
+
+@media screen and (max-width: 500px) {
+    .popup .circle {
+        margin-left: -23px;
+    }
+
+    .card-popup {
+        margin: 0px 10px;
+        text-align: justify;
+    }
+
+    .text-animal h3 {
+        text-align: center;
+    }
+
+    .text-animal h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .text-animal h5 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .popup-ul li::before {
+        margin-bottom: 5px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     #puppy-footer {
         width: 260px;
         height: 267px;
+    }
+
+    .img-about img {
+        width: 259px;
+        height: 352px;
+    }
+
+    .popup .circle {
+        z-index: 5;
+        margin-left: -23px;
     }
 }

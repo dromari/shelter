@@ -118,6 +118,10 @@ body {
     transition: 0.8s;
 }
 
+.burger-icon {
+    display: none;
+}
+
 .our-friends {
     display: flex;
     flex-direction: column;
@@ -345,19 +349,90 @@ body {
     display: none;
 }
 
-.pop-up {
-
-    flex-direction: column;
+.popup {
+    display: none;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.25)
+    background-color: rgba(41, 41, 41, 0.6);
+    z-index: 10;
 }
 
-.hidden {
-    visibility: hidden;
+.contain-popup {
+    display: flex;
+    width: 67%;
+    height: 48.25%;
+    background: #FAFAFA;
+    border-radius: 9px;
+    margin-left: 77px;
 }
 
+.card-popup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    gap: 4%;
+    margin: 0 26px;
+}
+
+.img-animal {
+    width: 50%;
+}
+
+.text-animal {
+    width: 50%;
+}
+
+.popup-img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.text-animal h3 {
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.text-animal h4 {
+    font-size: 20px;
+    letter-spacing: 0.06em;
+}
+
+.text-animal h5 {
+    letter-spacing: 0.06em;
+    margin: 40px 0;
+}
+
+.popup-ul li {
+    font-weight: 700;
+}
+
+.popup-ul li span {
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.popup-ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.popup-ul li::before {
+    content: "\2022";
+    color: #F1CDB3;
+    display: inline-block;
+    width: 15px;
+    margin-bottom: 11px;
+}
+
+.popup .circle {
+    width: 52px;
+    height: 52px;
+    margin-top: -550px;
+}
