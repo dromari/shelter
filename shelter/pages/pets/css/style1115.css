@@ -49,4 +49,26 @@
         margin-left: 170px;
 
     }
+
+    .contain-popup {
+        width: 82%;
+        height: 39.7%;
+        margin-left: 53px;
+    }
+
+    .popup .circle {
+        margin-top: -403px;
+    }
+    
+    .text-animal h3 {
+        margin: 0;
+    }
+    
+    .text-animal h4 {
+        margin: 0;
+    }
+    
+    .text-animal h5 {
+        margin: 0;
+    }
 }

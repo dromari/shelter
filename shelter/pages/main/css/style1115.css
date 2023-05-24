@@ -153,8 +153,20 @@
         margin-left: 53px;
     }
 
-    .pop-up .circle {
+    .popup .circle {
         margin-top: -403px;
+    }
+    
+    .text-animal h3 {
+        margin: 0;
+    }
+    
+    .text-animal h4 {
+        margin: 0;
+    }
+    
+    .text-animal h5 {
+        margin: 0;
     }
 
 }
